@@ -100,3 +100,84 @@ We Can write multi line comments
 
 
 
+# =================Types of Operators========================
+
+# Arithmetic Operators 
+
+a = 5 
+b = 2 
+
+print(a + b) # Sum
+print(a + b) # Different
+print(a * b) # Multiply
+print(a / b) # Devided
+print(a % b) # Remainder ( % = Modiule )
+print(a **  b) # a^b || a to the power b
+
+
+# Relational / Comparison Operators 
+
+a = 50 
+b = 20
+
+print(a == b) # False
+print(a != b) # True
+print(a <= b) # False
+print(a >= b) # True
+print(a < b) # False
+print(a > b) # True
+
+
+# Assignment Operators 
+
+a = 50 # = is assign 50 to a
+num = 10
+
+num = num + 10 
+print(num) # Answer will be 20
+
+# in short =>
+
+num += 10 
+print(num) # Answer will be 20 + 10 = 30 
+
+num -= 25
+print(num) # Answer will be  30 - 25 = 5
+
+num *= 5
+print(num) # Answer will be  5 * 5 = 25
+
+num /= 5
+print(num) # Answer will be  25/5  = 5
+
+num %= 3
+print(num) # Answer will be  5/3  = 1 Reminder ( 2 ) 
+
+num **= 2
+print(num) # Answer will be  2^2  = 4
+
+
+
+
+
+# Logical Operators (not , and , or)
+
+print(not False) # Answer will be True 
+print(not True) # Answer will be False
+
+print(not (a>b)) # Answer will be False
+
+value1 = True
+value2 = True
+
+print("ans operator :", value1 and value2)
+
+
+
+# In this Way : 
+
+value1 = True
+value2 = True
+
+print("ans operator :", value1 or  value2) # if anyone is true , than true  
+
