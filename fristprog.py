@@ -35,4 +35,25 @@ print(age2)
 # We can't use special symbols like !,#,@,%,$ etc in our identifier.
 # Identifier can ve of any length.
 
- 
+
+# ==============================================
+
+
+#Primary Data Types
+# Integers (+ve , -ve like : 25 , -25)
+# String ("Abhi", " Hello" , " Anything")
+# Float (1.5 , 3.50 )
+# Boolean ( True , False) Note : T and F will be capital letter
+# None  ( a= None)
+print(type(name))
+print(type(age))
+print(type(price))
+
+
+Boll = 23
+old = False
+a = None
+
+print(type(Boll))
+print(type(old))
+print(type(a))
