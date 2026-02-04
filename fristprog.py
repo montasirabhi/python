@@ -181,3 +181,29 @@ value2 = True
 
 print("ans operator :", value1 or  value2) # if anyone is true , than true  
 
+
+
+# ======================== Type Conversion ===========================
+
+# Conver one type to another type . Like Integer to Float 
+
+a = 2
+b = 4.25
+
+sum = a + b 
+""" As float is more superiour than integer as it can have mre value than integer , so 
+    The sum will be float
+
+    So it will be 2.0 + 4.25 = 6.25
+"""
+
+# ======================== Type Casting ================
+# Type convert manually
+
+a = int("2") # String ( As it is in cotation) So we add the int to convert as integar 
+b = 4.25 
+
+print(a+b)
+
+# Note : You can not change it while it is an actual string value like " Abhi" , you can not
+# Make it integar , because , it can not be an integar
