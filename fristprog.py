@@ -70,3 +70,33 @@ print(type(a))
 
 # Keywords Can not be used for variables 
 
+# Python Is A Case Sensative Language . (A != a )
+# In Python Name is not equal name . 
+
+# ==================================
+
+
+# Print Sum : 
+
+a = 150
+b = 250
+
+sum = a + b
+diff = a - b 
+print(sum , diff)
+
+
+# ===========================
+
+# Comments . 
+# We Can use comments as # or Triple cotation . 
+"""
+In The Triple Cottation 
+We Can write multi line comments
+"""
+
+# Comment Shortcut :  Select the whole lines and  press : " Ctrl + / "
+
+
+
+
