@@ -207,3 +207,66 @@ print(a+b)
 
 # Note : You can not change it while it is an actual string value like " Abhi" , you can not
 # Make it integar , because , it can not be an integar
+
+
+
+# ================== Get Input Form Users ===============
+
+# Input Statement : 
+
+name = input("Enter Your Name : ")
+
+print("Welcome " , name)
+
+# Input is always string 
+# So we should change the type . 
+
+age = input("Enter Your Age : ")
+
+print(type(age),"Age " , age) # It will be string 
+
+# To Change that : We will use   Type Casting
+
+age2 = int(input("Enter Your Age : "))
+
+print(type(age2),"Age " , age2) # It will be string 
+
+
+
+# ================= Practce =================
+#Question 1 : Write A Program to input 2 Number & Print their sum
+num01 = int(input("Enter The Frist Number "))
+num02 = int(input("Enter The Secound Number "))
+
+sum =  num01 + num02 
+
+print("The Sum Of Number 01 And Number 02 is : ", sum)
+
+# You Can Make Mistake as not putting the datatype of num01 and num02 as usual as
+# it is string as defult value , We have to Make that Integar 
+
+#Question 2 : Write A Program to input side of a square & print it's area
+
+side = float(input("Enter The Side Value  "))
+side *= side 
+
+print("The Square value is  : ", side)
+
+#Question 3 : Write A Program to input 2 floating point numbers & print their avarage
+
+frist = float(input("Enter The Frist Point : "))
+sec = float(input("Enter The Secound Point : "))
+
+avg = (frist + sec) / 2 
+
+print("The Average value is  : ", avg)
+
+#Question 4 : Write A Program to input 2 int numbers , a and b . 
+# Print True if a is greater than or equal to b . If not print False. 
+
+a = int(input("Enter The Value Of a : "))
+b = int(input("Enter The Value Of b : "))
+
+print(a>=b)
+
+# ============================== The End =========================== #
